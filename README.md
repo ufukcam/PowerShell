@@ -1,2 +1,3 @@
 # PowerShell
-Powershell Snippet
+PowerShell ISE Snippets
+*Better Manage Active Directory*

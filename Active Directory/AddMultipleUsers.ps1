@@ -1,5 +1,6 @@
 ﻿#  Multi Users
 #  Enter a path to your import CSV file
+#  Example CSV File https://antickle.sirv.com/exampleCSV.jpg
 $ADUsers = Import-csv C:\userlist.csv
 
 foreach ($User in $ADUsers)

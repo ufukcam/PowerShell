@@ -1,2 +1,2 @@
 # PowerShell
-PowerShell ISE Snippets  
+PowerShell ISE Snacks  

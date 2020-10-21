@@ -45,3 +45,9 @@ New-ADGroup -name "product" -groupscope Global
  # New OU 
 
  New-ADOrganizationalUnit -Name "Name" -Path "DC=Domain,DC=com"
+
+ # Reset password 
+
+ Set-ADAccountPassword ufuk -Reset -NewPassword (ConvertTo-SecureString -AsPlainText "newpasswordishere" -Force -Verbose) –PassThru
+
+ 

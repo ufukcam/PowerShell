@@ -1,0 +1,2 @@
+##Exchange PowerShell
+Get-MailboxStatistics -Identity “domain\username” |ft DisplayName, TotalitemSize, ItemCount, StorageLimitStatus

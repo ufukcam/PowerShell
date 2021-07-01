@@ -1,3 +1,5 @@
 #Remote PowerShell
+Set-Item wsman:\localhost\client\trustedhosts *
+
 
 Enter-PSSession -ComputerName computername -Credential domain\user.name

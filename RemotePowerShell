@@ -1,0 +1,3 @@
+#Remote PowerShell
+
+Enter-PSSession -ComputerName computername -Credential domain\user.name

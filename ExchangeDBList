@@ -1,0 +1,8 @@
+Step-1 db list
+Get-MailboxDatabase -Status -IncludePreExchange | Sort Name | Format-Table Name, Server, Mounted
+
+Step-2 Select DB
+Get-Mailbox -Database "DBNAME" | ft Name, Alias, WindowsEmailAddress, UserPrincipalName
+
+Step-3 Export Csv
+Get-Mailbox -Database "DBNAME" | select Name, Alias, WindowsEmailAddress, UserPrincipalName | Export-Csv C:\temp\CSVNAME.csv -NoTypeInformation -Encoding UTF8
